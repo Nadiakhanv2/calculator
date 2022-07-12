@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form name="form">
+            <div class="display">
+                <input type="text" placeholder="0" name="displayResult">
+            </div>
+           <div class="row">
+             <input type="btn" name="b7" class="btn" value="7" onclick="func(b7.value)">
+            <input type="btn" name="b8" class="btn" value="8" onclick="func(b8.value)">
+            <input type="btn" name="b9" class="btn" value="9" onclick="func(b9.value)">
+            <input type="btn" name="plus" class="btn" value="+" onclick="func(plus.value)">
+           </div>
+           <div class="row">
+             <input type="btn" name="b4" class="btn" value="4" onclick="func(b7.value)">
+            <input type="btn" name="b5" class="btn" value="5" onclick="func(b8.value)">
+            <input type="btn" name="b6" class="btn" value="6" onclick="func(b9.value)">
+            <input type="btn" name="minus" class="btn" value="-" onclick="func(minus.value)">
+           </div>
+           <div class="row">
+             <input type="btn" name="b1" class="btn" value="1" onclick="func(b7.value)">
+            <input type="btn" name="b2" class="btn" value="2" onclick="func(b8.value)">
+            <input type="btn" name="b3" class="btn" value="3" onclick="func(b9.value)">
+            <input type="btn" name="mul" class="btn" value="*" onclick="func(mul.value)">
+           </div>
+           <div class="row">
+             <input type="btn" name="b0" class="btn" value="1" onclick="func(b0.value)">
+            <input type="btn" name="bd" class="btn" value="." onclick="func(bd.value)">
+            <input type="btn" name="divv" class="btn" value="/" onclick="func(divv.value)">
+            <input type="btn"  class="btn" value="=" onclick="displayResult.value=eval(displayResult.value)">
+           </div>
+        </form>
+    </div>
+    <script>
+        function func(result){
+            form.displayResult.value=form.displayResult.value+result;
+        }
+    </script>
+</body>
+</html>
