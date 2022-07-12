@@ -20,10 +20,8 @@
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
     }
-    .button-items{
-
-    }
-    input[type=buttons]{
+    
+    /* input[type=buttons]{
         width: 60px;
         height: 60px;
         float: left;
@@ -34,4 +32,4 @@
         border: none;
         font-size: 30px;
         cursor: pointer;
-    }
+    } */
