@@ -1,0 +1,37 @@
+.bg{
+    background-color: rgb(248, 221, 221);
+    margin: 0;
+}
+.items{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: azure;
+    border-radius: 15px;
+    padding-bottom: 18px;
+    width: 35%;
+}
+.display-items{
+    width: 100%;
+    height: 60px;
+    padding: 40px 0;
+    background: floralwhite !important;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    }
+    .button-items{
+
+    }
+    input[type=buttons]{
+        width: 60px;
+        height: 60px;
+        float: left;
+        padding: 0;
+        margin: 5px;
+        box-sizing: border-box;
+        background-color: indianred;
+        border: none;
+        font-size: 30px;
+        cursor: pointer;
+    }
