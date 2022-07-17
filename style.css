@@ -38,6 +38,7 @@ padding: 0;
         box-sizing: border-box;
         line-height: 30px;
         background-color: indianred;
+        border-radius: 75px;
         border: none;
         font-size: 30px;
         font-weight: 700;
