@@ -1,70 +1,86 @@
- 
-
 html body {
-background-color: rgb(248, 221, 221);
     margin: 0;
-padding: 0;
-}
-
-
-.items{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgb(147, 230, 230);
-    border-radius: 15px;
-    padding-bottom: 18px;
-    width: 35%;
+    padding: 0;
+    background-color: rgb(225, 149, 149);
 }
 .display-items{
     width: 100%;
-    height: 60px;
+    height:60px;
     padding: 40px 0;
-    background: rgb(229, 148, 179) !important;
+    background: red;
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
-    }
-    .buttons{
-        padding: 20px 20px 0px 20px;
-    }
-
-    input[type=button]{
-        width: 60px;
-        height: 60px;
-        float: left;
-        padding: 0;
-        margin: 5px;
-        box-sizing: border-box;
-        line-height: 30px;
-        background-color: rgb(92, 182, 205);
-        border-radius: 75px;
-        border: none;
-        font-size: 30px;
-        font-weight: 700;
-color: rgb(133, 43, 43);
-        cursor: pointer;
-    }
-    .row-cal{
-        width: 280px;
-        float: left;
-    }
-    input[type=text]{
-        width: 275px;
-        height: 60px;
-        float: left;
-        padding: 0;
-        margin: 0 25px;
-        box-sizing: border-box;
-        line-height: 60px;
-        background-color: none;
-        border: none;
-        font-size: 30px;
-        font-weight: 700;
-        cursor: pointer;
-    }
+}
+.button-items{
+padding: 20px 20px 0px 20px;
+}
+/* .row-cal{
+    width: 280px;
+    float: left;
+} */
 .btn:hover{
-    background-color: rgb(238, 17, 61);
-    color: rgb(250, 251, 242);
+    background: coral;
+    color: aliceblue;
+}
+input[type=button]{
+    width:60px;
+    height:60px;
+    float: left;
+    padding: 0;
+    margin: 5px;
+    box-sizing: border-box;
+    line-height: 30px;
+    background-color: rgb(92, 182 , 205);
+    border-radius: 75px;
+    border: none;
+    font-size: 30px;
+    font-weight: 700;
+    color: aliceblue;
+    cursor: pointer;
+}
+input [type=text]{
+    width:275px;
+    height:60px;
+    float: left;
+    padding: 0;
+    margin: 0 25px;
+    box-sizing: border-box;
+    line-height: 60px;
+    background-color: none;
+    border:none;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.container-cal{
+    position: fixed;
+    top:50%;
+    left:50%;
+    border: 20px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    padding-bottom: 18px;
+    width: 325px;
+    transform: translate(-50%,-50%);
+    box-shadow: 0px 0px 10px 0px rgba(123,235,168,175);
+}
+.cal-bg{
+
+    background:-moz-linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 100%); 
+
+    background:-webkit-linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 100%);
+
+    background:-o-linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 100%);
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee82ee', endColorstr='#FFFF00', GradientType=0 );
+
+    background:-ms-linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 100%);
+
+    background:linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 100%);
 
 }
+
+
+
+
+           
